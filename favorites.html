@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorites</title>
+    <style>
+        body {
+            background-color: royalblue;
+        }
+        main {
+            border: 5px solid #555;
+            margin: auto;
+            background-color: white;
+            padding: none;
+            height: fit-content;
+            text-align: left;
+            width: 600px;
+            padding-bottom: 20px;
+        }
+        .head {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        .cycling {
+            width: 20%;
+            height: 20%;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+        .walking {
+            width: 20%;
+            height: 20%;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+        .journaling {
+            width: 20%;
+            height: 20%;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+        .watching_videos {
+            width: 20%;
+            height: 20%;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+        .playing_videogames {
+            width: 20%;
+            height: 20%;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+        .description {
+            margin: 5px;
+            margin-top: 0;
+            margin-right: 40px;
+            font-size: 95%;
+            margin-bottom: 0;
+            padding: 0;
+        }
+        .dropbtn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 8px;
+            font-size: 16px;
+            border: none;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+        button {
+            margin-left: 25%;
+        }
+        .food1 {
+            width: 30%;
+            height: 30%;
+        }
+        .food2 {
+            width: 15%;
+            height: 15%;
+        }
+        .dessert1 {
+            width: 15%;
+            height: 15%;
+        }
+        .dessert2 {
+            width: 36.5%;
+            height: 36.5%;
+        }
+        form {
+            margin-left: 3%;
+        }
+    </style>
+</head>
+<body class="entire">
+
+    <main>
+        <h1 class="head">My Hobbies</h1>
+        <p class="description">
+            I Enjoy,
+        </p>
+        <ul> 
+            <li>Cycling</li>
+            <img class="cycling" src="images/cycling.jpg" alt="cycling"></img>
+            <li>Walking</li>
+            <img class="walking" src="images/walking.jpg" alt="soup dumpling"></img> 
+            <li>Journaling</li>
+            <img class="journaling" src="images/journaling.jpg" alt="journaling"></img>
+            <li>Watching videos</li>
+            <img class="watching_videos" src="images/watching_videos.jpg" alt="watching videos"></img>
+            <li>Playing videogames</li>
+            <img class="playing_videogames" src="images/playing_videogames.jpg" alt="playing videogames"></img>
+        </ul>
+        <form>
+            <label for="fname">What are your hobbies?</label><br>
+            <input type="text" id="fname" name="fname"><br>
+          </form>
+        <h2 class="second">My Favorites,</h2>
+        <ul> 
+            <li><u>food</u>: sushi, soup dumplings</li>
+            <img class="food1" src="images/foods/sushi.jpg" alt="sushi"></img>
+            <img class="food2" src="images/foods/xiaolongbao.jpg" alt="soup dumpling"></img> 
+            <li><u>movie</u>: A Silent Voice, Spirited Away</li>
+
+            <li><u>artists</u>: keshi, beebadobee, LilyPichu</li>
+
+            <li><u>youtuber</u>:  ha sisters, hasanabi, ur mom ashley</li>
+
+            <li><u>desserts</u>: creme brulee, fluffy cheesecake</li>
+            <img class="dessert1" src="images/desserts/cremebrulee.jpg" alt="creme brulee"></img>
+            <img class="dessert2" src="images/desserts/cheesecake.jpg" alt="cheesecake"></img>
+        </ul>
+        <p class="description">
+
+        </p>
+
+        <!-- the following div functions as my drop down menu -->
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="skills.html">Skills</a>
+                    <a href="spots.html">Spots</a>
+                </div>
+        </div>
+
+    </main>
+</body>
+</html>

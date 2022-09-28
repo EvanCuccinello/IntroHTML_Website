@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body {
+            background-color: royalblue;
+        }
+        main {
+            margin: auto;
+            text-align: left;
+            background-color: white;
+            max-width: 600px;
+            padding-left: 10px;
+            padding-right: 10px;         
+            padding-bottom: 1px;   
+            border: 5px solid #555;
+        }
+        .head {
+            padding-top: 5px;
+            margin: 0;
+        }
+        .head2 {
+            font-size: 90%;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        .button1 {
+            padding: none;
+            margin: 0;
+            background-color: lightgray;
+            margin-bottom: 10px;
+        }
+        img {
+            width: 60%;
+            height: 60%; 
+            padding: 0;
+            margin: 0;
+            border: 5px solid goldenrod;
+        }
+        .img {
+            display: flex;
+            justify-content: center;
+        }
+        .bolded {
+            font-weight: 600;
+        }
+
+    </style>
+</head>
+<body>
+
+
+    <main>
+        <h1 class="head">Evan Cuccinello</h1>
+        <h2 class="head2">Brooklyn Tech Student</h2>
+        <div class="img">
+            <img src="/images/brooklyn.jpg" alt="Profile Picture">
+        </div>
+        <p>
+            My name is Evan. I am a student at <span class="bolded">&copy; Brooklyn Tech</span> (<a href="https://www.bths.edu/index.jsp">School Website</a>). I have lived in New York my entire life. I two siblings, my twin brother and my older sister. I enjoy walking and biking around the city.
+        </p>
+
+        <!-- the following form functions as a button -->
+        <form action="/skills.html">
+            <input class="button1" type="submit" value="About Me" />
+        </form>
+    </main>
+
+</body>
+</html>

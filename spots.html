@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spots</title>
+    <style>
+        body {
+            background-color: royalblue;
+        }
+        main {
+            border: 5px solid #555;
+            margin: auto;
+            background-color: white;
+            padding: none;
+            height: fit-content;
+            text-align: left;
+            width: 600px;
+            padding-bottom: 20px;
+        }
+        .head {
+            margin-top: 10px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        .description {
+            margin: 5px;
+            margin-top: 0;
+            margin-right: 40px;
+            font-size: 95%;
+            margin-bottom: 0;
+            padding: 0;
+        }
+        video {
+            margin: none;
+            margin-left: 10px;
+            padding: 0;
+            margin-bottom: 50px;
+        }
+        img {
+            padding: 0;
+            margin: 0;
+            width: 320;
+            height: 240;
+            align-items: left;
+        }
+        .dropbtn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 8px;
+            font-size: 16px;
+            border: none;
+        }
+        .dropdown {
+            margin-top: 15px;
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+        button {
+            margin-left: 25%;
+        }
+        table {
+            margin-left: 15px;
+            margin-top: 5px;
+            border: 3px solid black;
+        }
+        th {
+            border: 3px solid darkgray;
+        }
+        td {
+            border: 3px solid darkgray;
+        }
+    </style>
+</head>
+<body class="entire">
+
+    <main>
+        <h1 class="head">My Spots</h1>
+        <p class="description">
+            My favorite scenic spots in New York City
+        </p>
+
+        <table>
+            <tr>
+              <th>Name</th>
+              <th>Location</th>
+              <th>Reason</th>
+            </tr>
+            <tr>
+              <td>East River Greenway</td>
+              <td>East of Finicial District</td>
+              <td>Scenic Views</td>
+            </tr>
+            <tr>
+              <td>Central Park</td>
+              <td>Manhattan</td>
+              <td>Relaxation and Physical activities</td>
+            </tr>
+            <tr>
+                <td>New Wonjo</td>
+                <td>K-town</td>
+                <td>Amazing food</td>
+              </tr>
+          </table>
+
+        <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="skills.html">Skills</a>
+                    <a href="favorites.html">Favorites</a>
+                </div>
+        </div>
+    </main>
+</body>
+</html>
